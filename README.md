@@ -27,3 +27,19 @@ Experiment → Strain Measurement → iFEM Calculation → FEM Simulation → Vi
 The validation results demonstrate high agreement between simulation and experimental data, confirming the accuracy of the proposed monitoring approach.
 
 ## Repository Structure
+
+This repository contains the complete workflow of the structural monitoring experiment, including experimental data, numerical analysis, and validation materials.
+
+- **Experiment_Video.mp4**  
+  Demonstrates the experimental procedure and validation process.  
+  The strain values measured from strain gauges were input into the iFEM program to compute structural displacement.  
+  The computed displacement was then compared with measurements obtained from displacement sensors to evaluate the error and verify the accuracy of the proposed method.
+
+- **iFEM Digital Twin Structural Monitoring.pdf**  
+  Full project report describing the theoretical background, modeling approach, experiment design, and validation results.
+
+- **K_Value.xlsx**  
+  Contains the stiffness-related parameters and calculation data used in the iFEM analysis.
+
+- **LICENSE**  
+  MIT License for repository usage.
